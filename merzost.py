@@ -311,7 +311,7 @@ async def main():
     await zuki.initialize_swarm()
     waypoints = [(10, 10, -5), (20, 20, -5)]
     await zuki.execute_mission(waypoints)
-    print("Донаты больному ребенку")
+    print("Сбор данных")
     global_map = await zuki.merge_maps()
     print("Гатова !")
     await zuki.network.stop()
